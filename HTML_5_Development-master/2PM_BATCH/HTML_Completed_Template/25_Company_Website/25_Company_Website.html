@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Technologies</title>
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin: 0;
+        }
+        header{
+            background-image: url("../img/forest.jpg");
+            padding: 10px;
+            color: white;
+            background-size: cover;
+            text-align: center;
+            line-height: 15px;
+        }
+        /* --- Main Navigation --- */
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        nav ul li a:hover{
+            background-color: forestgreen;
+        }
+        nav ul li a.active{
+            background-color: darkgreen;
+        }
+        /* ---- Sidebar --- */
+        aside{
+            float: left;
+            width: 200px;
+            text-align: center;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-image: url("../img/forest.jpg");
+            color: white;
+        }
+        /* --- Main Content Section --- */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid forestgreen;
+            padding: 15px;
+        }
+        details{
+            background: white url("../img/forest.jpg") no-repeat fixed bottom;
+            background-size: cover;
+            padding: 12px;
+            color: white;
+            margin: 5px;
+            border-radius: 50px;
+        }
+        summary{
+            outline: none;
+        }
+
+        /* --- Main Footer --- */
+        footer{
+            background-image: url("../img/forest.jpg");
+            padding: 10px;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            line-height: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header>
+        <h1>
+          <i class="fa fa-snowflake-o fa-spin"></i>
+            UiBrains Technologies
+            <i class="fa fa-snowflake-o fa-spin"></i>
+        </h1>
+        <p>The Smart Way of Learning</p>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#" class="active">
+                   <i class="fa fa-home"></i> Home</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-id-card"></i> About Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-envelope"></i> Contact Us</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-graduation-cap"></i> Careers</a>
+            </li>
+            <li>
+                <a href="#">
+                   <i class="fa fa-book"></i> Courses</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar -->
+    <aside>
+        <ul>
+            <li>
+                <a href="#"><i class="fa fa-book"></i> HTML</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-code"></i> CSS</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-book"></i> JavaScript</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-code"></i> JQuery</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-book"></i> AJAX</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-code"></i> Bootstrap</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-book"></i> Angular JS</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Section -->
+    <section>
+
+        <!-- HTML -->
+        <details>
+            <summary>HTML</summary>
+            <div>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- CSS -->
+        <details>
+            <summary>CSS</summary>
+            <div>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- JavaScript -->
+        <details>
+            <summary>JavaScript</summary>
+            <div>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- JQuery -->
+        <details>
+            <summary>JQuery</summary>
+            <div>
+                <h3>JQuery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- AJAX -->
+        <details>
+            <summary>AJAX</summary>
+            <div>
+                <h3>AJAX</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- Bootstrap -->
+        <details>
+            <summary>Bootstrap</summary>
+            <div>
+                <h3>Bootstrap</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+
+        <!-- Angular JS -->
+        <details>
+            <summary>Angular JS</summary>
+            <div>
+                <h3>Angular JS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, eveniet facere fugiat laboriosam nihil nisi quisquam reiciendis tempora ut voluptas? Asperiores atque ducimus eius et exercitationem fugiat ipsa ipsam iure minus modi mollitia nostrum obcaecati omnis optio quam quasi qui quisquam recusandae sapiente vero voluptas, voluptate voluptates. Perferendis, quae rem?</p>
+            </div>
+        </details>
+    </section>
+
+    <!-- Main Footer -->
+    <footer>
+        <h3>Copyright &copy; 2018, UiBrains Technologies</h3>
+        <p>All Rights Reserved</p>
+        <p>Developed & Maintained by Naveen Saggam</p>
+    </footer>
+
+</body>
+</html>
